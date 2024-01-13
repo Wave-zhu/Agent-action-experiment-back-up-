@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdefd2eb7aa734849af6ee925e37a8f6, type: 3}
+  m_Name: JL2
+  m_EditorClassIdentifier: 
+  _attackName: JL2
+  _attackDamageInfo:
+  - damageType: 0
+    damage: 0
+    hitName: Front
+    parryName: ParryHF
+  _attackColdDuration: 0.5
+  _nextAttackInfo: {fileID: 11400000, guid: 50bd7ae19e90ab24cb58c0a127b8c46b, type: 2}
+  _childAttackInfo: {fileID: 11400000, guid: 1dc0f48cc1857e34a9701b45074e384b, type: 2}
+  _attackOffset: 0
+  _attackRange: 0

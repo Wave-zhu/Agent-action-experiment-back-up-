@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdefd2eb7aa734849af6ee925e37a8f6, type: 3}
+  m_Name: L2
+  m_EditorClassIdentifier: 
+  _attackName: L2
+  _attackDamageInfo:
+  - damageType: 0
+    damage: 60
+    hitName: Right
+    parryName: ParryR
+  _attackColdDuration: 0.7
+  _nextAttackInfo: {fileID: 11400000, guid: b0bb8e232905e9b44b71143b993887eb, type: 2}
+  _childAttackInfo: {fileID: 11400000, guid: 9bd1a7aa434382244b195244fa9b8cb8, type: 2}
+  _attackOffset: 0
+  _attackRange: 1.7
